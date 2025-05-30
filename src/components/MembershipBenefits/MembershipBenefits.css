@@ -1,0 +1,48 @@
+.benefits {
+  padding: 4rem 0;
+  background-color: #F5F5F5;
+}
+
+.benefits__container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.benefits__title {
+  font-size: 2.25rem;
+  font-weight: 700;
+  color: #0052A5;
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+@media (min-width: 768px) {
+  .benefits__title {
+    font-size: 2.5rem;
+  }
+}
+
+.benefits__grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.5rem;
+}
+
+@media (min-width: 640px) {
+  .benefits__grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 1024px) {
+  .benefits__grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+.benefits__button-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 3rem;
+}

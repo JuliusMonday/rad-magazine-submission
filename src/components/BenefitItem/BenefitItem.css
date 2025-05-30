@@ -1,0 +1,32 @@
+.benefit-item {
+  background-color: #fff;
+  border-radius: 0.5rem;
+  padding: 1.5rem;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: transform 0.3s ease;
+  height: 100%;
+}
+
+.benefit-item:hover {
+  transform: scale(1.05);
+}
+
+.benefit-item__icon {
+  color: #0052A5;
+  font-size: 2.25rem;
+  margin-bottom: 1rem;
+}
+
+.benefit-item__title {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 0.75rem;
+}
+
+.benefit-item__description {
+  color: #333;
+  font-size: 1rem;
+  line-height: 1.5;
+}
