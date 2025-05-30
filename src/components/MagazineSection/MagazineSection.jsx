@@ -4,7 +4,7 @@ import Button from '../Button/Button';
 
 const MagazineSection = () => {
   const handleMagazineSuggestions = () => {
-    window.open("https://forms.google.com/magazinesuggestions", "_blank");
+    window.open("https://jutelabs-portfolio.vercel.app", "_blank");
   };
 
   return (
