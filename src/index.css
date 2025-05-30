@@ -1,19 +1,64 @@
 @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css');
 
+
+
+/* Dark mode variables */
 :root {
-  --primary: #0052A5;
+  --text-color: #333;
+  --bg-color: #fff;
+  --section-bg: #f5f5f5;
+  --card-bg: #fff;
+  --border-color: #e2e8f0;
+  --accent-color: #0052A5;
+  --secondary-color: #E37222;
+  --highlight-color: #FFCC00;
+   --primary: #0052A5;
   --secondary: #E37222;
   --accent: #FFCC00;
   --light-bg: #F5F5F5;
   --text-dark: #333333;
   --text-light: #ffffff;
 }
-
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
+.dark {
+  --text-color: #e2e8f0;
+  --bg-color: #1a202c;
+  --section-bg: #2d3748;
+  --card-bg: #2d3748;
+  --border-color: #4a5568;
+  --accent-color: #63b3ed;
+  --secondary-color: #f6ad55;
+  --highlight-color: #ecc94b;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+  color: var(--text-color);
+  background-color: var(--bg-color);
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Apply dark mode variables to components */
+.section {
+  padding: 4rem 0;
+  background-color: var(--section-bg);
+}
+
+.card {
+  background-color: var(--card-bg);
+  border: 1px solid var(--border-color);
+}
+
+.button--primary {
+  background-color: var(--highlight-color);
+  color: #000;
+}
+
 
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
