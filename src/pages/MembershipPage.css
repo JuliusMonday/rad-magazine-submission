@@ -1,0 +1,287 @@
+.membership-page {
+  padding-top: 80px;
+}
+
+.membership-hero {
+  background: linear-gradient(rgba(0, 82, 165, 0.8), rgba(0, 82, 165, 0.9)), 
+              url('https://readdy.ai/api/search-image?query=diverse%20group%20of%20radiography%20students%20collaborating%2C%20professional%20development%2C%20university%20setting%2C%20educational%20environment%2C%20teamwork%2C%20modern%20facility&width=1600&height=500&orientation=landscape') center/cover;
+  color: white;
+  padding: 100px 20px;
+  text-align: center;
+}
+
+.membership-hero h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+.benefits-overview {
+  padding: 80px 0;
+  background-color: #f8f9fa;
+}
+
+.benefits-overview__container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.benefits-overview h2 {
+  color: #0052A5;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.benefits-overview__subtitle {
+  text-align: center;
+  max-width: 700px;
+  margin: 0 auto 50px;
+  font-size: 1.1rem;
+  color: #333;
+}
+
+.benefits-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+}
+
+@media (min-width: 576px) {
+  .benefits-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 992px) {
+  .benefits-grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+.membership-options {
+  padding: 80px 0;
+}
+
+.membership-options__container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.membership-options h2 {
+  color: #0052A5;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.membership-options__subtitle {
+  text-align: center;
+  margin-bottom: 40px;
+  color: #333;
+}
+
+.membership-tabs {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 40px;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.membership-tab {
+  padding: 12px 25px;
+  background: white;
+  border: 2px solid #0052A5;
+  border-radius: 30px;
+  cursor: pointer;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+.membership-tab:hover {
+  background-color: #e6f0ff;
+}
+
+.membership-tab.active {
+  background-color: #0052A5;
+  color: white;
+}
+
+.membership-plans {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.membership-plan {
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  padding: 40px;
+  text-align: center;
+}
+
+.membership-plan__header {
+  margin-bottom: 30px;
+}
+
+.membership-plan__header h3 {
+  color: #0052A5;
+  margin-bottom: 10px;
+}
+
+.membership-plan__price {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #333;
+}
+
+.membership-plan__price span {
+  font-size: 1rem;
+  font-weight: normal;
+  color: #6c757d;
+}
+
+.membership-plan__features {
+  text-align: left;
+  margin-bottom: 30px;
+  padding-left: 0;
+}
+
+.membership-plan__feature {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 15px;
+  line-height: 1.6;
+}
+
+.membership-plan__feature i {
+  color: #28a745;
+  margin-right: 10px;
+  margin-top: 5px;
+  flex-shrink: 0;
+}
+
+.membership-plan__button {
+  width: 100%;
+  padding: 15px;
+  font-size: 1.1rem;
+}
+
+.testimonials {
+  padding: 80px 0;
+  background-color: #f8f9fa;
+}
+
+.testimonials__container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.testimonials h2 {
+  color: #0052A5;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.testimonials__grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 30px;
+}
+
+@media (min-width: 768px) {
+  .testimonials__grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.testimonial {
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  padding: 30px;
+  position: relative;
+}
+
+.testimonial__content {
+  margin-bottom: 25px;
+  position: relative;
+  padding-left: 20px;
+}
+
+.testimonial__content::before {
+  content: "+";
+  position: absolute;
+  left: -15px;
+  top: -30px;
+  font-size: 5rem;
+  color: #e9ecef;
+  font-family: Georgia, serif;
+  line-height: 1;
+}
+
+.testimonial__author {
+  display: flex;
+  align-items: center;
+}
+
+.testimonial__author-avatar {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: #e9ecef;
+  margin-right: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #6c757d;
+}
+
+.testimonial__author h4 {
+  margin-bottom: 5px;
+  color: #333;
+}
+
+.faq {
+  padding: 80px 0;
+}
+
+.faq__container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.faq h2 {
+  color: #0052A5;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.faq__item {
+  border-bottom: 1px solid #e9ecef;
+  padding: 25px 0;
+}
+
+.faq__question {
+  color: #0052A5;
+  margin-bottom: 15px;
+  cursor: pointer;
+  position: relative;
+  padding-right: 30px;
+}
+
+.faq__question::after {
+  content: "+";
+  position: absolute;
+  right: 0;
+  top: 0;
+  font-size: 1.5rem;
+  font-weight: 300;
+}
+
+.faq__answer {
+  color: #333;
+  line-height: 1.8;
+}

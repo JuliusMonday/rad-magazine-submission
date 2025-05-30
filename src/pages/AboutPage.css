@@ -1,0 +1,166 @@
+.about-page {
+  padding-top: 80px;
+}
+
+.about-hero {
+  background: linear-gradient(rgba(0, 82, 165, 0.8), rgba(0, 82, 165, 0.9)), 
+              url('https://readdy.ai/api/search-image?query=university%20campus%20radiography%20department%2C%20professional%20environment%2C%20modern%20facility%2C%20educational%20setting%2C%20clean%20design%2C%20academic%20atmosphere&width=1600&height=500&orientation=landscape') center/cover;
+  color: white;
+  padding: 100px 20px;
+  text-align: center;
+}
+
+.about-hero h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+.mission-vision {
+  padding: 80px 0;
+  background-color: #f8f9fa;
+}
+
+.mission-vision__container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 40px;
+  padding: 0 20px;
+}
+
+@media (min-width: 768px) {
+  .mission-vision__container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+.mission-vision__item {
+  background: white;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.mission-vision__item h2 {
+  color: #0052A5;
+  margin-bottom: 20px;
+}
+
+.history {
+  padding: 80px 0;
+}
+
+.history__container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.history h2 {
+  color: #0052A5;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.history p {
+  margin-bottom: 20px;
+  line-height: 1.8;
+}
+
+.executives {
+  background-color: #f8f9fa;
+  padding: 80px 0;
+}
+
+.executives__container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.executives h2 {
+  color: #0052A5;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.executives__grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 30px;
+}
+
+@media (min-width: 576px) {
+  .executives__grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 992px) {
+  .executives__grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.executive-card {
+  background: white;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 25px;
+  text-align: center;
+}
+
+.executive-card__image {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background-color: #e9ecef;
+  margin: 0 auto 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #6c757d;
+}
+
+.executive-card h3 {
+  color: #0052A5;
+  margin-bottom: 5px;
+}
+
+.executive-card p {
+  margin-bottom: 10px;
+  color: #6c757d;
+}
+
+.executive-card__bio {
+  font-size: 0.9rem;
+  line-height: 1.6;
+}
+
+.cta-section {
+  background-color: #0052A5;
+  color: white;
+  padding: 80px 20px;
+  text-align: center;
+}
+
+.cta-section__container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.cta-section h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.cta-section p {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}

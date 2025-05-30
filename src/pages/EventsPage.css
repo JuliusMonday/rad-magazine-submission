@@ -1,0 +1,117 @@
+.events-page {
+  padding-top: 80px;
+}
+
+.events-hero {
+  background: linear-gradient(rgba(0, 82, 165, 0.8), rgba(0, 82, 165, 0.9)), 
+              url('https://readdy.ai/api/search-image?query=radiography%20conference%20audience%2C%20professional%20event%2C%20educational%20seminar%2C%20students%20and%20professionals%2C%20modern%20venue%2C%20academic%20atmosphere&width=1600&height=500&orientation=landscape') center/cover;
+  color: white;
+  padding: 100px 20px;
+  text-align: center;
+}
+
+.events-hero h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+.events-filter {
+  background-color: #f8f9fa;
+  padding: 30px 0;
+}
+
+.events-filter__container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  padding: 0 20px;
+  flex-wrap: wrap;
+}
+
+.events-filter__button {
+  padding: 10px 20px;
+  border: none;
+  background: white;
+  border-radius: 30px;
+  cursor: pointer;
+  font-weight: 500;
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.events-filter__button:hover {
+  background-color: #e9ecef;
+}
+
+.events-filter__button.active {
+  background-color: #0052A5;
+  color: white;
+}
+
+.events-list {
+  padding: 60px 0;
+}
+
+.events-list__container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.events-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 30px;
+}
+
+@media (min-width: 768px) {
+  .events-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 992px) {
+  .events-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.no-events {
+  text-align: center;
+  padding: 50px 20px;
+  grid-column: 1 / -1;
+}
+
+.no-events h3 {
+  color: #0052A5;
+  margin-bottom: 15px;
+}
+
+.events-cta {
+  background-color: #0052A5;
+  color: white;
+  padding: 80px 20px;
+}
+
+.events-cta__container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.events-cta__content {
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.events-cta__content h2 {
+  font-size: 2.2rem;
+  margin-bottom: 20px;
+}
+
+.events-cta__content p {
+  font-size: 1.1rem;
+  margin-bottom: 30px;
+}

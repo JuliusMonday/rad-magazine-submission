@@ -1,0 +1,209 @@
+.contact-page {
+  padding-top: 80px;
+}
+
+.contact-hero {
+  background: linear-gradient(rgba(0, 82, 165, 0.8), rgba(0, 82, 165, 0.9)), 
+              url('https://readdy.ai/api/search-image?query=university%20campus%20contact%20center%2C%20professional%20environment%2C%20radiography%20department%2C%20educational%20setting%2C%20communication%2C%20modern%20facility&width=1600&height=500&orientation=landscape') center/cover;
+  color: white;
+  padding: 100px 20px;
+  text-align: center;
+}
+
+.contact-hero h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+.contact-info {
+  padding: 80px 0;
+  background-color: #f8f9fa;
+}
+
+.contact-info__container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.contact-info__grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 30px;
+}
+
+@media (min-width: 768px) {
+  .contact-info__grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.contact-info__card {
+  background: white;
+  border-radius: 8px;
+  padding: 30px;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s ease;
+}
+
+.contact-info__card:hover {
+  transform: translateY(-5px);
+}
+
+.contact-info__icon {
+  width: 70px;
+  height: 70px;
+  background-color: #0052A5;
+  color: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 20px;
+  font-size: 1.5rem;
+}
+
+.contact-info__card h3 {
+  color: #0052A5;
+  margin-bottom: 15px;
+}
+
+.contact-info__card p {
+  margin-bottom: 8px;
+  color: #333;
+}
+
+.contact-form-section {
+  padding: 80px 0;
+}
+
+.contact-form-section__container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 50px;
+  padding: 0 20px;
+}
+
+@media (min-width: 992px) {
+  .contact-form-section__container {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.contact-form-section__content {
+  padding-right: 30px;
+}
+
+.contact-form-section__content h2 {
+  color: #0052A5;
+  margin-bottom: 15px;
+}
+
+.contact-form-section__content p {
+  margin-bottom: 30px;
+  color: #333;
+}
+
+.contact-form .form-group {
+  margin-bottom: 20px;
+}
+
+.contact-form label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: 500;
+  color: #333;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 12px 15px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-family: inherit;
+  font-size: 1rem;
+}
+
+.contact-form textarea {
+  resize: vertical;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  outline: none;
+  border-color: #0052A5;
+  box-shadow: 0 0 0 2px rgba(0, 82, 165, 0.2);
+}
+
+.contact-map {
+  background-color: #f8f9fa;
+  border-radius: 8px;
+  overflow: hidden;
+  height: 500px;
+}
+
+.map-placeholder {
+  width: 100%;
+  height: 100%;
+  background-color: #e9ecef;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #6c757d;
+}
+
+.map-placeholder i {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+.faq-contact {
+  padding: 80px 0;
+  background-color: #f8f9fa;
+}
+
+.faq-contact__container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.faq-contact h2 {
+  color: #0052A5;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.faq-contact__grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 30px;
+}
+
+@media (min-width: 768px) {
+  .faq-contact__grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+.faq-item {
+  background: white;
+  border-radius: 8px;
+  padding: 25px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+}
+
+.faq-item__question {
+  color: #0052A5;
+  margin-bottom: 15px;
+}
+
+.faq-item__answer {
+  color: #333;
+  line-height: 1.7;
+}
