@@ -1,7 +1,8 @@
 import React from 'react';
 import './AboutPage.css';
 import Button from '../components/Button/Button';
-import President from "../assets/President .jpeg";
+
+import President from "../assets/President.jpeg";             // no trailing space
 import VicePresident from "../assets/VicePresident.jpeg";
 import PublicRelationsOfficer from "../assets/PublicRelationsOfficer.jpeg";
 import AssistantPRO from "../assets/AssistantPRO.jpeg";
@@ -9,7 +10,7 @@ import SecretaryGeneral from "../assets/SecretaryGeneral.jpeg";
 import AssistantSecretaryGeneral from "../assets/AssistantSecretaryGeneral.jpeg";
 import AssistantDirectorOfHealth from "../assets/AssistantDirectorOfHealth.jpeg";
 import FinancialSecretary from "../assets/FinancialSecretary.jpeg";
-import DOS from "../assets/DOS.jpeg";
+import DOS from "../assets/dos.jpeg";                        // lowercase match
 import AssistantDOS from "../assets/AssistantDOS.jpeg";
 import DirectorOfHealth from "../assets/DirectorOfHealth.jpeg";
 import DirectorOfReligiousAffairs from "../assets/DirectorOfReligiousAffairs.jpeg";
@@ -18,6 +19,7 @@ import DirectorOfAcademics from "../assets/DirectorOfAcademics.jpeg";
 import AssistantDirectorOfGames from "../assets/AssistantDirectorOfGames.jpeg";
 import AssistantDirectorOfAcademics from "../assets/AssistantDirectorOfAcademics.jpeg";
 import Treasurer from "../assets/Treasurer.jpeg";
+
 const AboutPage = () => {
   return (
     <div className="about-page">
