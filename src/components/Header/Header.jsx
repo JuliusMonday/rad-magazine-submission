@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { Link, NavLink } from 'react-router-dom';
 import './Header.css';
 import Button from '../Button/Button';
-import Logo from "../../assets/mainRadLogo.png";
+import Logo from "../../assets/mainRadlogo.png";
 
 const Header = () => {
   const [isScrolled, setIsScrolled] = useState(false);
