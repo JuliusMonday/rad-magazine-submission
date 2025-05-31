@@ -49,7 +49,7 @@ const Header = () => {
         <div className="header__logo">
           <Link to="/" className="header__logo-link">
             <div className="header__logo-text">
-              <img src={Logo} alt="Rad Logo" className="header__logo-image" />
+              <img src={ Logo } alt="Rad Logo" className="header__logo-image" />
                <span className="header__logo-subtext">
               Nnamdi Azikiwe University Radiography Students Association
             </span>
