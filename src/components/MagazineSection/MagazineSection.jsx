@@ -6,7 +6,9 @@ const MagazineSection = () => {
   const handleMagazineSuggestions = () => {
     window.open("https://forms.gle/J9jUcYCkCErFXJMw8", "_blank");
   };
-
+  const handleArchives = () => {
+    window.open("https://t.me/+CVjtM63_jGRjMTU0", "_blank");
+  };
   return (
     <section id="magazine" className="magazine">
       <div className="magazine__container">
@@ -45,7 +47,9 @@ const MagazineSection = () => {
                 Submit Suggestions
               </Button>
               <Button variant="secondary">Read Current Issue</Button>
-              <Button variant="outline">Browse Archives</Button>
+              <Button variant="secondary" onClick={handleArchives}>
+                View Archives
+              </Button>
             </div>
           </div>
         </div>
