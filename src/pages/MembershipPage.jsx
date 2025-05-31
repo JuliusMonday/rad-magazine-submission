@@ -1,10 +1,10 @@
-import React, { useState } from 'react';
+// import React, { useState } from 'react';
 import './MembershipPage.css';
 import BenefitItem from '../components/BenefitItem/BenefitItem';
 import Button from '../components/Button/Button';
 
 const MembershipPage = () => {
-  const [membershipType, setMembershipType] = useState('student');
+  // const [membershipType, setMembershipType] = useState('student');
   
   const benefits = [
     { icon: "fas fa-book-reader", title: "Educational Resources" },
@@ -17,49 +17,49 @@ const MembershipPage = () => {
     { icon: "fas fa-award", title: "Recognition" }
   ];
 
-  const membershipTypes = [
-    {
-      id: 'student',
-      title: 'Student Membership',
-      price: '₦5,000',
-      period: 'per year',
-      features: [
-        'Access to all workshops and seminars',
-        'Subscription to our quarterly magazine',
-        'Eligibility for scholarships and grants',
-        'Networking opportunities',
-        'Access to online resources'
-      ]
-    },
-    {
-      id: 'professional',
-      title: 'Professional Membership',
-      price: '₦15,000',
-      period: 'per year',
-      features: [
-        'All student benefits',
-        'Continuing education credits',
-        'Professional development resources',
-        'Mentorship opportunities',
-        'Discounted conference rates',
-        'Job placement assistance'
-      ]
-    },
-    {
-      id: 'lifetime',
-      title: 'Lifetime Membership',
-      price: '₦100,000',
-      period: 'one-time',
-      features: [
-        'All professional benefits',
-        'Permanent access to all resources',
-        'VIP event invitations',
-        'Recognition in association publications',
-        'Voting rights in association matters',
-        'Complimentary conference attendance'
-      ]
-    }
-  ];
+  // const membershipTypes = [
+  //   {
+  //     id: 'student',
+  //     title: 'Student Membership',
+  //     price: '₦5,000',
+  //     period: 'per year',
+  //     features: [
+  //       'Access to all workshops and seminars',
+  //       'Subscription to our quarterly magazine',
+  //       'Eligibility for scholarships and grants',
+  //       'Networking opportunities',
+  //       'Access to online resources'
+  //     ]
+  //   },
+  //   {
+  //     id: 'professional',
+  //     title: 'Professional Membership',
+  //     price: '₦15,000',
+  //     period: 'per year',
+  //     features: [
+  //       'All student benefits',
+  //       'Continuing education credits',
+  //       'Professional development resources',
+  //       'Mentorship opportunities',
+  //       'Discounted conference rates',
+  //       'Job placement assistance'
+  //     ]
+  //   },
+  //   {
+  //     id: 'lifetime',
+  //     title: 'Lifetime Membership',
+  //     price: '₦100,000',
+  //     period: 'one-time',
+  //     features: [
+  //       'All professional benefits',
+  //       'Permanent access to all resources',
+  //       'VIP event invitations',
+  //       'Recognition in association publications',
+  //       'Voting rights in association matters',
+  //       'Complimentary conference attendance'
+  //     ]
+  //   }
+  // ];
 
   return (
     <div className="membership-page">
