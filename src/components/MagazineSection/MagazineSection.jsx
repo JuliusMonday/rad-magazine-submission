@@ -1,7 +1,7 @@
 import React from 'react';
 import './MagazineSection.css';
 import Button from '../Button/Button';
-
+import Magazinephoto from "../../assets/pollpics.jpg";
 const MagazineSection = () => {
   const handleMagazineSuggestions = () => {
     window.open("https://jutelabs-portfolio.vercel.app", "_blank");
@@ -15,30 +15,26 @@ const MagazineSection = () => {
         <div className="magazine__content">
           <div className="magazine__image-container">
             <img
-              src="https://readdy.ai/api/search-image?query=professional%20medical%20journal%20cover%2C%20radiography%20magazine%2C%20high%20quality%20publication%20design%2C%20medical%20imaging%20theme%2C%20educational%20content%2C%20professional%20photography%2C%20clean%20modern%20layout&width=400&height=550&seq=9&orientation=portrait"
+              src={Magazinephoto}
               alt="NAURADSA Magazine"
               className="magazine__image"
             />
           </div>
 
           <div className="magazine__text">
-            <h3 className="magazine__subtitle">The Radiography Pulse</h3>
+            <h3 className="magazine__subtitle">Radiocomm Magazine</h3>
             <p className="magazine__description">
-              Our quarterly magazine features cutting-edge research, industry trends, student achievements, and professional insights in the field of radiography and medical imaging.
+              Our annual magazine features cutting-edge research, industry trends, student achievements, and professional insights in the field of radiography and medical imaging. Each issue includes interviews with industry leaders, technical articles, case studies, and updates on the latest technological advancements in radiography.
             </p>
             <p className="magazine__description">
-              Each issue includes interviews with industry leaders, technical articles, case studies, and updates on the latest technological advancements in radiography.
+              The theme for this year’s edition is THE RADIOGRAPHY ODYSSEYS which underscores the series of experiences and journeys in the field of radiography profession, perhaps involving learning, professional development or innovative applications of radiographic techniques.
             </p>
 
             <div className="magazine__highlight">
-              <h4 className="magazine__highlight-title">Current Issue Highlights:</h4>
-              <ul className="magazine__highlight-list">
-                <li>Advances in Digital Radiography Technology</li>
-                <li>Interview with Dr. Sarah Johnson, Chief Radiologist at University Hospital</li>
-                <li>Student Research Spotlight: Innovative Approaches to Radiation Safety</li>
-                <li>Career Pathways: Specializations in Radiography</li>
-                <li>Alumni Success Stories: Where Are They Now?</li>
-              </ul>
+              <h4 className="magazine__highlight-title">Opinion Poll:</h4>
+              <div className="magazine__highlight-list">
+                <p className="poll"><b>Following the rate of advancements in Artificial Intelligence Technology, Can ROBOTS (AI) take over radiographic positioning of patients?</b> Support your claims with factual statements.</p>
+              </div>
             </div>
 
             <div className="magazine__buttons">

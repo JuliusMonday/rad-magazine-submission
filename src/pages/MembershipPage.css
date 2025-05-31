@@ -4,7 +4,7 @@
 
 .membership-hero {
   background: linear-gradient(rgba(0, 82, 165, 0.8), rgba(0, 82, 165, 0.9)), 
-              url('https://readdy.ai/api/search-image?query=diverse%20group%20of%20radiography%20students%20collaborating%2C%20professional%20development%2C%20university%20setting%2C%20educational%20environment%2C%20teamwork%2C%20modern%20facility&width=1600&height=500&orientation=landscape') center/cover;
+              url('../assets/convocation.jpeg') center/cover;
   color: white;
   padding: 100px 20px;
   text-align: center;

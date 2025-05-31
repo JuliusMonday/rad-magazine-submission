@@ -11,6 +11,11 @@ import 'swiper/css/pagination';
 import './HeroSlider.css';
 import Button from '../Button/Button';
 
+// importing images
+import Slide1 from "../../assets/welcome1.jpeg";
+import Slide2 from "../../assets/visit100l.jpeg";
+import Slide3 from "../../assets/narsvisit.jpeg";
+import Slide4 from "../../assets/convocation.jpeg";
 const HeroSlider = () => {
   const handleMagazineSuggestions = () => {
     window.open("https://forms.google.com/magazinesuggestions", "_blank");
@@ -73,31 +78,32 @@ const HeroSlider = () => {
 
 const slides = [
   {
-    image: "https://readdy.ai/api/search-image?query=professional%20radiography%20students%20in%20a%20university%20setting%2C%20modern%20medical%20imaging%20equipment%2C%20students%20in%20white%20lab%20coats%2C%20clean%20and%20professional%20environment%2C%20soft%20lighting%2C%20inspiring%20educational%20atmosphere%2C%20high%20quality%20professional&width=1440&height=600&seq=1&orientation=landscape",
+    image: Slide1,
     alt: "NAURADSA Welcome",
     title: "Welcome to NAURADSA",
-    description: "Empowering future radiographers through education, community, and professional development.",
-    buttonText: "Magazine Suggestions",
+    description: "A formidable association that see to the affairs of radiography students  through education, community, and professional development.",
+    buttonText: "Learn More",
     buttonVariant: "primary"
   },
   {
-    image: "https://readdy.ai/api/search-image?query=hands-on%20medical%20imaging%20workshop%2C%20students%20practicing%20with%20radiography%20equipment%2C%20practical%20skills%20training%2C%20educational%20laboratory%20setting%2C%20professional%20development%2C%20clean%20modern%20facility&width=400&height=200&seq=7&orientation=landscape",
+    image: Slide2,
     alt: "Current Magazine Issue",
-    title: "Latest Magazine Issue",
-    description: "Explore the latest research, techniques, and insights in our quarterly publication.",
+    title: "Radiocomm Magazine Issues",
+    description: 'The Radiocomm Magazine is the annual magazine from the Editorial Board of the NAURADSA Public Relations Officer, which aims to educate, inform, entertain, and engage readers with various contents about the Radiography Profession, not just as a practitioner but also as a patient. This year, the magazine will be published with the theme of "The Future of Radiography".',
     buttonText: "Read Issue",
     buttonVariant: "primary"
   },
   {
-    image: "https://readdy.ai/api/search-image?query=professional%20conference%20or%20seminar%20setting%2C%20medical%20professionals%20networking%2C%20educational%20presentation%2C%20modern%20conference%20hall%2C%20radiography%20equipment%20exhibition%2C%20professional%20atmosphere%2C%20clean%20environment&width=1440&height=600&seq=3&orientation=landscape",
+    image: Slide3,
     alt: "Upcoming Events",
     title: "Upcoming Events",
-    description: "Join us for workshops, conferences, and networking opportunities throughout the year.",
-    buttonText: "View Calendar",
+    description:'Join us for Radicare Week, NAURADSA Picnics, Dinner Nights, Magazine Launching, Football Competition, Seminars, Conferences and other activities spanning through the year. Stay updated through the NAURADSA NEWS NETWORK from the Public Relations Officer.'
+,
+    buttonText: "View Events",
     buttonVariant: "secondary"
   },
   {
-    image: "https://readdy.ai/api/search-image?query=diverse%20group%20of%20medical%20students%20collaborating%2C%20professional%20development%2C%20career%20advancement%2C%20mentorship%20program%2C%20educational%20resources%2C%20modern%20university%20campus%2C%20bright%20and%20inspiring%20environment&width=1440&height=600&seq=4&orientation=landscape",
+    image: Slide4,
     alt: "Membership Benefits",
     title: "Membership Benefits",
     description: "Access exclusive resources, networking opportunities, and professional development.",

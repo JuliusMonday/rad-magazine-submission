@@ -4,7 +4,7 @@
 
 .contact-hero {
   background: linear-gradient(rgba(0, 82, 165, 0.8), rgba(0, 82, 165, 0.9)), 
-              url('https://readdy.ai/api/search-image?query=university%20campus%20contact%20center%2C%20professional%20environment%2C%20radiography%20department%2C%20educational%20setting%2C%20communication%2C%20modern%20facility&width=1600&height=500&orientation=landscape') center/cover;
+              url('../assets/conference.jpg') center/cover;
   color: white;
   padding: 100px 20px;
   text-align: center;

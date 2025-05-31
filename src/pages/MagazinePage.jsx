@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './MagazinePage.css';
 import Button from '../components/Button/Button';
-
+import Cover1 from "../assets/Magazineissue.jpeg";
 const MagazinePage = () => {
   const [activeTab, setActiveTab] = useState('current');
   
@@ -9,41 +9,14 @@ const MagazinePage = () => {
     current: [
       {
         id: 1,
-        title: "Spring 2023: Innovations in Medical Imaging",
-        description: "Exploring the latest technological advancements in radiography and their impact on patient care.",
-        date: "March 2023",
-        cover: "https://readdy.ai/api/search-image?query=professional%20medical%20journal%20cover%2C%20radiography%20magazine%2C%20spring%202023%2C%20innovations%20in%20medical%20imaging%2C%20high%20quality%20design%2C%20educational%20publication&width=300&height=400&orientation=portrait"
+        title: "Radiocomm Magazine 2025: The Rad Odysseys",
+        description: "A narrative or documentary that follows the adventures or challenges of radiographers, medical imaging professionals and/or patients undergoing radiographic examination.",
+        date: "March 2025",
+        cover: Cover1
       }
     ],
     past: [
-      {
-        id: 2,
-        title: "Winter 2022: Radiation Safety in Modern Practice",
-        description: "Comprehensive guide to radiation protection protocols and best practices for radiographers.",
-        date: "December 2022",
-        cover: "https://readdy.ai/api/search-image?query=radiography%20magazine%20cover%2C%20winter%202022%2C%20radiation%20safety%2C%20professional%20publication%2C%20medical%20imaging%2C%20educational%20journal&width=300&height=400&orientation=portrait"
-      },
-      {
-        id: 3,
-        title: "Fall 2022: Career Pathways in Radiography",
-        description: "Exploring diverse career opportunities and specializations in the radiography field.",
-        date: "September 2022",
-        cover: "https://readdy.ai/api/search-image?query=radiography%20magazine%20cover%2C%20fall%202022%2C%20career%20pathways%2C%20professional%20development%2C%20medical%20imaging%20careers%2C%20educational%20journal&width=300&height=400&orientation=portrait"
-      },
-      {
-        id: 4,
-        title: "Summer 2022: Advances in Diagnostic Imaging",
-        description: "Cutting-edge techniques and technologies transforming diagnostic radiology practices.",
-        date: "June 2022",
-        cover: "https://readdy.ai/api/search-image?query=radiography%20magazine%20cover%2C%20summer%202022%2C%20diagnostic%20imaging%2C%20medical%20technology%2C%20professional%20publication%2C%20educational%20journal&width=300&height=400&orientation=portrait"
-      },
-      {
-        id: 5,
-        title: "Spring 2022: Student Research Highlights",
-        description: "Showcasing exceptional research projects by radiography students across Nigeria.",
-        date: "March 2022",
-        cover: "https://readdy.ai/api/search-image?query=radiography%20magazine%20cover%2C%20spring%202022%2C%20student%20research%2C%20academic%20publication%2C%20medical%20imaging%20education%2C%20educational%20journal&width=300&height=400&orientation=portrait"
-      }
+      
     ]
   };
 
@@ -51,8 +24,8 @@ const MagazinePage = () => {
     <div className="magazine-page">
       <section className="magazine-hero">
         <div className="magazine-hero__content">
-          <h1>The Radiography Pulse</h1>
-          <p>NAURADSA's quarterly magazine featuring research, insights, and industry trends</p>
+          <h1>he Radiocomm Magazine</h1>
+          <p>NAURADSA's Annual magazine featuring research, insights, and industry trends</p>
         </div>
       </section>
 
@@ -90,10 +63,10 @@ const MagazinePage = () => {
                   <h3>In This Issue:</h3>
                   <ul>
                     <li>Advances in Digital Radiography Technology</li>
-                    <li>Interview with Dr. Sarah Johnson, Chief Radiologist</li>
-                    <li>Student Research Spotlight: Radiation Safety Innovations</li>
+                    <li>Interview with various professional radiographers and enterprenuers</li>
+                    <li>Student Research Spotlight</li>
                     <li>Career Pathways: Specializations in Radiography</li>
-                    <li>Alumni Success Stories: Where Are They Now?</li>
+                    <li>Radiography Opinion Polls, Jokes, Poems, Puzzle games</li>
                   </ul>
                 </div>
                 
@@ -138,13 +111,13 @@ const MagazinePage = () => {
             <div className="contribution__guidelines">
               <h3>Submission Guidelines:</h3>
               <ul>
-                <li>Articles should be 800-1500 words</li>
+                <li>Articles should be 100-500 words</li>
                 <li>Include relevant images with proper attribution</li>
-                <li>References should follow APA format</li>
+                <li>Submissions should be in English</li>
                 <li>Submissions must be original work</li>
               </ul>
             </div>
-            <Button variant="primary">Submit an Article</Button>
+            <Button variant="primary">Submit your Opinion</Button>
           </div>
         </div>
       </section>

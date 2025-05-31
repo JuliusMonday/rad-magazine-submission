@@ -89,7 +89,7 @@ const MembershipPage = () => {
         </div>
       </section>
 
-      <section className="membership-options">
+      {/* <section className="membership-options">
         <div className="membership-options__container">
           <h2>Membership Options</h2>
           <p className="membership-options__subtitle">Choose the plan that works best for you</p>
@@ -133,9 +133,9 @@ const MembershipPage = () => {
               ))}
           </div>
         </div>
-      </section>
+      </section> */}
 
-      <section className="testimonials">
+      {/* <section className="testimonials">
         <div className="testimonials__container">
           <h2>What Our Members Say</h2>
           
@@ -159,7 +159,7 @@ const MembershipPage = () => {
             ))}
           </div>
         </div>
-      </section>
+      </section> */}
 
       <section className="faq">
         <div className="faq__container">
@@ -186,19 +186,11 @@ const faqItems = [
   },
   {
     question: "How long does membership last?",
-    answer: "Student membership is valid for one academic year. Professional membership is valid for one calendar year. Lifetime membership is a one-time payment for permanent access."
+    answer: "Student membership is valid for as long as the person remains a student of Radiography Department in Nnamdi Azikiwe University. Upon graduation, the member automatically joins the NAURADSA Alumni."
   },
   {
-    question: "Can I upgrade my membership?",
-    answer: "Yes, you can upgrade your membership at any time. The difference in cost between your current membership and the upgraded membership will be calculated pro-rata."
-  },
-  {
-    question: "How do I renew my membership?",
-    answer: "Membership renewal notices are sent via email 30 days before expiration. You can renew online through our secure portal."
-  },
-  {
-    question: "Are there discounts for group memberships?",
-    answer: "Yes, we offer special rates for groups of 5 or more members from the same institution. Contact our membership coordinator for details."
+    question: "How do I become a member?",
+    answer: "Just gained admission through JAMB into Radiography Department of Nnamdi Azikiwe University. After which, obtain your NAURADSA ID CARD and pay the little but necessary dues required from time to time."
   }
 ];
 

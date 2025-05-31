@@ -38,15 +38,17 @@ const Footer = () => {
             <ul className="footer__contact">
               <li className="footer__contact-item">
                 <i className="fas fa-map-marker-alt footer__contact-icon"></i>
-                Department of Radiography, Nnamdi Azikiwe University, Awka
+                Department of Radiography, Nnamdi Azikiwe University, Okofia Nnewi Campus.
               </li>
               <li className="footer__contact-item">
                 <i className="fas fa-envelope footer__contact-icon"></i>
-                info@nauradsa.org
+                nauradsaofficial@gmail.com
+officialnauradsa@gmail.com
               </li>
               <li className="footer__contact-item">
                 <i className="fas fa-phone footer__contact-icon"></i>
-                +234 800 123 4567
+                +2348104987893 
++2347065371205
               </li>
             </ul>
           </div>
@@ -88,11 +90,9 @@ const Footer = () => {
             &copy; {currentYear} NAURADSA. All rights reserved.
           </p>
 
-          <div className="footer__payment">
-            <span className="footer__payment-text">Payment Partners:</span>
-            <i className="fab fa-cc-visa footer__payment-icon"></i>
-            <i className="fab fa-cc-mastercard footer__payment-icon"></i>
-            <i className="fab fa-paypal footer__payment-icon"></i>
+          <div className="footer__dev">
+            <span className="footer__dev-text">Developed By JuTeLabs:</span>
+            <span classname="footer__dev-number">07068209902</span>
           </div>
         </div>
       </div>

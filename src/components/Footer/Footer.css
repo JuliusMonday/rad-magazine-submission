@@ -31,6 +31,7 @@
   font-size: 1.25rem;
   font-weight: 600;
   margin-bottom: 1rem;
+  color:#FFCC00;
 }
 
 .footer__description {
@@ -135,18 +136,18 @@
   opacity: 0.9;
 }
 
-.footer__payment {
+.footer__dev {
   display: flex;
   align-items: center;
   gap: 0.75rem;
 }
 
-.footer__payment-text {
+.footer__dev-text {
   font-size: 0.875rem;
   opacity: 0.9;
 }
 
-.footer__payment-icon {
+.footer__dev-number {
   font-size: 1.5rem;
-  color: #FFCC00;
+  color: #FFCC00 !important;
 }

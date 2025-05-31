@@ -4,7 +4,7 @@
 
 .about-hero {
   background: linear-gradient(rgba(0, 82, 165, 0.8), rgba(0, 82, 165, 0.9)), 
-              url('https://readdy.ai/api/search-image?query=university%20campus%20radiography%20department%2C%20professional%20environment%2C%20modern%20facility%2C%20educational%20setting%2C%20clean%20design%2C%20academic%20atmosphere&width=1600&height=500&orientation=landscape') center/cover;
+              url('../assets/welcome2.jpeg') center/cover;
   color: white;
   padding: 100px 20px;
   text-align: center;
@@ -92,6 +92,97 @@
   gap: 30px;
 }
 
+.executive-card {
+  background: white;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 25px;
+  text-align: center;
+}
+
+.executive-card__image {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin: 0 auto 20px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.executive-card__image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  display: block;
+}
+.executive-card p:nth-of-type(1) {
+  color: var(--secondary);
+  font-weight: 600;
+  margin-bottom: 1rem;
+  text-align: center;
+  font-size: 0.95rem;
+}
+ /* Container Section */
+    .objectives-section {
+      background-color: var(--light-bg);
+      padding: 2rem;
+    }
+
+    .objectives-card {
+      background-color: var(--card-bg);
+      border: 1px solid var(--border-color);
+      border-radius: 8px;
+      max-width: 600px;
+      margin: 0 auto;
+      padding: 1.5rem 2rem;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    }
+
+    .objectives-card h2 {
+      color: var(--primary);
+      font-size: 1.5rem;
+      margin-bottom: 1rem;
+      text-align: center;
+    }
+
+    /* Styled Bullet List */
+    .objectives-list {
+      list-style: none;
+      padding-left: 0;
+      margin: 0;
+    }
+
+    .objectives-list li {
+      position: relative;
+      padding-left: 1.8rem;
+      margin-bottom: 1rem;
+      color: var(--text-color);
+      line-height: 1.5;
+      font-size: 1rem;
+    }
+
+    .objectives-list li::before {
+      content: "•";
+      position: absolute;
+      left: 0;
+      top: 0;
+      color: var(--accent);
+      font-size: 1.4rem;
+      line-height: 1;
+      transform: translateY(0.15rem);
+    }
+
+    /* Optional: Highlight on hover */
+    .objectives-list li:hover {
+      background-color: var(--section-bg);
+      border-radius: 4px;
+      padding-left: 1.7rem;
+    }
 @media (min-width: 576px) {
   .executives__grid {
     grid-template-columns: repeat(2, 1fr);

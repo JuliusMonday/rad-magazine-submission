@@ -40,18 +40,29 @@
 .header__logo {
   display: flex;
   align-items: center;
+  gap: 0.5rem;
+  flex-direction: row;
 }
 
 .header__logo-text {
   color: var(--header-text);
   font-weight: 700;
   font-size: 1.5rem;
-  margin-right: 0.5rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  justify-content: center;
+ 
+}
+.header__logo-image {
+  max-width: 70px;
+  height: auto;
+  object-fit: contain;
 }
 
 .header__logo-subtext {
   color: var(--header-text);
-  font-size: 0.75rem;
+  font-size: 0.55rem;
   display: none;
 }
 

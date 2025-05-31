@@ -41,7 +41,7 @@ const ContactPage = () => {
               <h3>Our Location</h3>
               <p>Department of Radiography</p>
               <p>Nnamdi Azikiwe University</p>
-              <p>Awka, Anambra State, Nigeria</p>
+              <p>Nnewi, Anambra State, Nigeria</p>
             </div>
             
             <div className="contact-info__card">
@@ -49,9 +49,8 @@ const ContactPage = () => {
                 <i className="fas fa-envelope"></i>
               </div>
               <h3>Email Us</h3>
-              <p>info@nauradsa.org</p>
-              <p>support@nauradsa.org</p>
-              <p>magazine@nauradsa.org</p>
+              <p>nauradsaofficial@gmail.com</p>
+              <p>officialnauradsa@gmail.com</p>
             </div>
             
             <div className="contact-info__card">
@@ -59,8 +58,8 @@ const ContactPage = () => {
                 <i className="fas fa-phone"></i>
               </div>
               <h3>Call Us</h3>
-              <p>+234 800 123 4567</p>
-              <p>+234 800 765 4321</p>
+              <p>234 810 498 7893</p>
+              <p>+234 706 537 1205</p>
               <p>Mon-Fri: 9am - 5pm</p>
             </div>
           </div>
@@ -155,20 +154,16 @@ const ContactPage = () => {
 
 const faqItems = [
   {
-    question: "How can I become a NAURADSA member?",
-    answer: "You can join NAURADSA by visiting our Membership page and completing the registration form. Student membership is open to all radiography students at Nnamdi Azikiwe University."
+    question: "Who can join NAURADSA?",
+    answer: "NAURADSA membership is open to all radiography students at Nnamdi Azikiwe University. We also offer professional membership for graduates working in the field."
   },
   {
-    question: "Where can I access past magazine issues?",
-    answer: "All past issues of our quarterly magazine are available in the Magazine section of our website. Members have full access to the complete archive."
+    question: "How long does membership last?",
+    answer: "Student membership is valid for as long as the person remains a student of Radiography Department in Nnamdi Azikiwe University. Upon graduation, the member automatically joins the NAURADSA Alumni."
   },
   {
-    question: "How can I submit an article to the magazine?",
-    answer: "We welcome submissions from students and professionals. Visit the Magazine page and click on 'Submit an Article' to view our guidelines and submission form."
-  },
-  {
-    question: "How do I register for upcoming events?",
-    answer: "Event registration is available on the Events page. Simply select the event you wish to attend and complete the registration form."
+    question: "How do I become a member?",
+    answer: "Just gained admission through JAMB into Radiography Department of Nnamdi Azikiwe University. After which, obtain your NAURADSA ID CARD and pay the little but necessary dues required from time to time."
   }
 ];
 

@@ -3,36 +3,39 @@ import './EventsSection.css';
 import EventCard from '../EventCard/EventCard';
 import Button from '../Button/Button';
 
+import Image1 from "../../assets/narsconvention.jpeg"
+import Image2 from "../../assets/upcomingevent1.jpeg"
+import Image3 from "../../assets/visit100l.jpeg"
 const EventsSection = () => {
   const events = [
     {
-      image: "https://readdy.ai/api/search-image?query=professional%20workshop%20setting%2C%20educational%20seminar%2C%20medical%20imaging%20presentation%2C%20students%20engaged%20in%20learning%2C%20modern%20conference%20room%2C%20professional%20development%20event%2C%20clean%20environment&width=400&height=200&seq=6&orientation=landscape",
-      alt: "Annual Conference",
-      month: "MAY",
-      day: "30",
-      title: "Annual Conference",
+      image: Image1,
+      alt: "NARS CONVENTION",
+      month: "Anticipate",
+      day: "Next Year",
+      title: "NARS CONVENTION",
       time: "9:00 AM - 5:00 PM",
-      description: "Join us for our flagship event featuring keynote speakers, research presentations, and networking opportunities.",
-      location: "University Auditorium"
+      description: "The Annual Convention by the Nigerian Association of Radiography Students (NARS) holding early next year at University of Medical Sciences, Ondo.  Stay updated with NAURADSA NEWS NETWORK to know when it is time.",
+      location: "Ondo"
     },
     {
-      image: "https://readdy.ai/api/search-image?query=hands-on%20medical%20imaging%20workshop%2C%20students%20practicing%20with%20radiography%20equipment%2C%20practical%20skills%20training%2C%20educational%20laboratory%20setting%2C%20professional%20development%2C%20clean%20modern%20facility&width=400&height=200&seq=7&orientation=landscape",
+      image: Image2,
       alt: "Practical Workshop",
-      month: "JUN",
-      day: "15",
-      title: "Practical Workshop",
-      time: "10:00 AM - 2:00 PM",
-      description: "Hands-on training session on advanced imaging techniques with industry professionals.",
+      month: "Anticipate",
+      day: "End of Session",
+      title: "NAURADSA PICNIC/DINNER NIGHT",
+      time: "10:00 AM - 6:00 PM",
+      description: "An extracurricular event usually organized by the office of the NAURADSA Director of Socials and Welfare at the end of the session. It usually promises to be the best. Stay updated with NAURADSA NEWS NETWORK to know when it is time.",
       location: "Radiography Lab"
     },
     {
-      image: "https://readdy.ai/api/search-image?query=professional%20networking%20event%2C%20healthcare%20professionals%20mingling%2C%20career%20fair%20atmosphere%2C%20medical%20imaging%20industry%20representatives%2C%20professional%20development%20opportunity%2C%20clean%20modern%20venue&width=400&height=200&seq=8&orientation=landscape",
+      image: Image3,
       alt: "Networking Event",
-      month: "JUL",
-      day: "08",
-      title: "Career Networking",
-      time: "4:00 PM - 7:00 PM",
-      description: "Connect with potential employers and industry leaders in radiography and medical imaging.",
+      month: "NOV",
+      day: "18",
+      title: "RADICARE WEEK",
+      time: "9:00 AM - 5:00 PM",
+      description: "An event that prior to the celebration of World Radiography Day (Nov. 18) with a lot of activities. RADIOCOMM MAGAZINE shall be launched during this event. Get ready to participate. Stay tuned with NAURADSA NEWS NETWORK.",
       location: "Faculty Hall"
     }
   ];
