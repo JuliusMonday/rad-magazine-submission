@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { Link, NavLink } from 'react-router-dom';
 import './Header.css';
 import Button from '../Button/Button';
-import logo from '../../assets/mainRadlogo.png';
+import logo from '../../../public/mainRadlogo.png';
 
 
 const Header = () => {
