@@ -47,7 +47,7 @@ const MagazineSection = () => {
                 Submit Suggestions
               </Button>
               <Button variant="secondary">Read Current Issue</Button>
-              <Button variant="secondary" onClick={handleArchives}>
+              <Button variant="primary" onClick={handleArchives}>
                 View Archives
               </Button>
             </div>
