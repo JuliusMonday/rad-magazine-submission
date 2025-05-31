@@ -18,7 +18,7 @@ import Slide3 from "../../assets/narsvisit.jpeg";
 import Slide4 from "../../assets/convocation.jpeg";
 const HeroSlider = () => {
   const handleMagazineSuggestions = () => {
-    window.open("https://forms.google.com/magazinesuggestions", "_blank");
+    window.open("https://forms.gle/J9jUcYCkCErFXJMw8", "_blank");
   };
 
   return (

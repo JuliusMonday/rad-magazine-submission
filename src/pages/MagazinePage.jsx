@@ -20,11 +20,15 @@ const MagazinePage = () => {
     ]
   };
 
+  const handleMagazineSuggestions = () => {
+    window.open("https://forms.gle/J9jUcYCkCErFXJMw8", "_blank");
+  };
+
   return (
     <div className="magazine-page">
       <section className="magazine-hero">
         <div className="magazine-hero__content">
-          <h1>he Radiocomm Magazine</h1>
+          <h1>The Radiocomm Magazine</h1>
           <p>NAURADSA's Annual magazine featuring research, insights, and industry trends</p>
         </div>
       </section>
@@ -117,7 +121,7 @@ const MagazinePage = () => {
                 <li>Submissions must be original work</li>
               </ul>
             </div>
-            <Button variant="primary">Submit your Opinion</Button>
+            <Button onClick={handleMagazineSuggestions} variant="primary">Submit your Opinion</Button>
           </div>
         </div>
       </section>

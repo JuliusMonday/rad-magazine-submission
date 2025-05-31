@@ -4,7 +4,7 @@ import Button from '../Button/Button';
 import Magazinephoto from "../../assets/pollpics.jpg";
 const MagazineSection = () => {
   const handleMagazineSuggestions = () => {
-    window.open("https://jutelabs-portfolio.vercel.app", "_blank");
+    window.open("https://forms.gle/J9jUcYCkCErFXJMw8", "_blank");
   };
 
   return (
