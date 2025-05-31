@@ -57,17 +57,16 @@ officialnauradsa@gmail.com
           <div className="footer__column">
             <h3 className="footer__column-title">Connect With Us</h3>
             <div className="footer__social">
-              <a href="#" className="footer__social-link">
+              <a href="https://www.facebook.com/share/14Eg6KKNJSP/" className="footer__social-link">
                 <i className="fab fa-facebook"></i>
               </a>
-              <a href="#" className="footer__social-link">
-                <i className="fab fa-twitter"></i>
-              </a>
-              <a href="#" className="footer__social-link">
+              {/* Instagram icon */}
+              <a href="https://www.instagram.com/nauradsa_tv?utm_source=qr&igsh=MW9uc244ZDkzb3lvag==" className="footer__social-link">
                 <i className="fab fa-instagram"></i>
               </a>
-              <a href="#" className="footer__social-link">
-                <i className="fab fa-linkedin"></i>
+              {/* tiktok icon */}
+              <a href="https://www.tiktok.com/@nauradsa_unizik?_t=ZM-8woGhY6p8ly&_r=1" className="footer__social-link">
+                <i className="fab fa-tiktok"></i>
               </a>
             </div>
 
