@@ -68,6 +68,10 @@ officialnauradsa@gmail.com
               <a href="https://www.tiktok.com/@nauradsa_unizik?_t=ZM-8woGhY6p8ly&_r=1" className="footer__social-link">
                 <i className="fab fa-tiktok"></i>
               </a>
+              {/* telegram icon */}
+              <a href="https://t.me/+CVjtM63_jGRjMTU0" className="footer__social-link">
+                <i className="fab fa-telegram"></i> 
+                </a>
             </div>
 
             <h3 className="footer__column-title">Newsletter</h3>

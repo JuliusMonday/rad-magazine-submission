@@ -42,7 +42,7 @@ const HeroSlider = () => {
       image: Slide2,
       alt: "Current Magazine Issue",
       title: "Radiocomm Magazine Issues",
-      description: 'The Radiocomm Magazine is the annual magazine from the Editorial Board of the NAURADSA Public Relations Officer, which aims to educate, inform, entertain, and engage readers with various contents about the Radiography Profession, not just as a practitioner but also as a patient. This year, the magazine will be published with the theme of "The Future of Radiography".',
+      description: 'The Radiocomm Magazine is the annual magazine from the Editorial Board of the NAURADSA Public Relations Officer, which aims to educate, inform, entertain, and engage readers with various contents about the Radiography Profession, not just as a practitioner but also as a patient. This year, the magazine will be published with the theme of "THE RADIOGRAPHY ODYSSEYS ".',
       buttonText: "Read Issue",
       buttonVariant: "primary",
       buttonAction: handleReadIssue

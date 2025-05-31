@@ -5,9 +5,9 @@ import Button from '../components/Button/Button';
 
 const MembershipPage = () => {
   // const [membershipType, setMembershipType] = useState('student');
-  
+
   const benefits = [
-    { icon: "fas fa-book-reader", title: "Educational Resources" },
+    { icon: "fas fa-book-reader", title: "Educational Resources", link: "https://t.me/RADlibrary" },
     { icon: "fas fa-users", title: "Networking" },
     { icon: "fas fa-certificate", title: "Certifications" },
     { icon: "fas fa-hands-helping", title: "Mentorship" },
@@ -61,6 +61,21 @@ const MembershipPage = () => {
   //   }
   // ];
 
+  const faqItems = [
+    {
+      question: "Who can join NAURADSA?",
+      answer: "NAURADSA membership is open to all radiography students at Nnamdi Azikiwe University. We also offer professional membership for graduates working in the field."
+    },
+    {
+      question: "How long does membership last?",
+      answer: "Student membership is valid for as long as the person remains a student of Radiography Department in Nnamdi Azikiwe University. Upon graduation, the member automatically joins the NAURADSA Alumni."
+    },
+    {
+      question: "How do I become a member?",
+      answer: "Just gained admission through JAMB into Radiography Department of Nnamdi Azikiwe University. After which, obtain your NAURADSA ID CARD and pay the little but necessary dues required from time to time."
+    }
+  ];
+
   return (
     <div className="membership-page">
       <section className="membership-hero">
@@ -73,17 +88,24 @@ const MembershipPage = () => {
       <section className="benefits-overview">
         <div className="benefits-overview__container">
           <h2>Membership Benefits</h2>
-          <p className="benefits-overview__subtitle">As a NAURADSA member, you'll gain access to valuable resources and opportunities</p>
-          
+          <p className="benefits-overview__subtitle">
+            As a NAURADSA member, you'll gain access to valuable resources and opportunities
+          </p>
           <div className="benefits-grid">
             {benefits.map((benefit, index) => (
               <BenefitItem
                 key={index}
                 icon={benefit.icon}
-                title={benefit.title}
-              >
-                {benefit.description}
-              </BenefitItem>
+                title={
+                  benefit.link ? (
+                    <a href={benefit.link} target="_blank" rel="noopener noreferrer">
+                      {benefit.title}
+                    </a>
+                  ) : (
+                    benefit.title
+                  )
+                }
+              />
             ))}
           </div>
         </div>
@@ -93,7 +115,7 @@ const MembershipPage = () => {
         <div className="membership-options__container">
           <h2>Membership Options</h2>
           <p className="membership-options__subtitle">Choose the plan that works best for you</p>
-          
+
           <div className="membership-tabs">
             {membershipTypes.map(type => (
               <button
@@ -105,7 +127,7 @@ const MembershipPage = () => {
               </button>
             ))}
           </div>
-          
+
           <div className="membership-plans">
             {membershipTypes
               .filter(type => type.id === membershipType)
@@ -117,7 +139,7 @@ const MembershipPage = () => {
                       {type.price} <span>{type.period}</span>
                     </div>
                   </div>
-                  
+
                   <ul className="membership-plan__features">
                     {type.features.map((feature, i) => (
                       <li key={i} className="membership-plan__feature">
@@ -125,7 +147,7 @@ const MembershipPage = () => {
                       </li>
                     ))}
                   </ul>
-                  
+
                   <Button variant="primary" className="membership-plan__button">
                     Select Plan
                   </Button>
@@ -135,36 +157,9 @@ const MembershipPage = () => {
         </div>
       </section> */}
 
-      {/* <section className="testimonials">
-        <div className="testimonials__container">
-          <h2>What Our Members Say</h2>
-          
-          <div className="testimonials__grid">
-            {[...Array(3)].map((_, i) => (
-              <div key={i} className="testimonial">
-                <div className="testimonial__content">
-                  <p>
-                    "Joining NAURADSA transformed my educational journey. The workshops and networking opportunities 
-                    helped me secure an internship at a top hospital even before graduation."
-                  </p>
-                </div>
-                <div className="testimonial__author">
-                  <div className="testimonial__author-avatar"></div>
-                  <div>
-                    <h4>Member Name</h4>
-                    <p>Position, Institution</p>
-                  </div>
-                </div>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section> */}
-
       <section className="faq">
         <div className="faq__container">
           <h2>Frequently Asked Questions</h2>
-          
           <div className="faq__list">
             {faqItems.map((item, i) => (
               <div key={i} className="faq__item">
@@ -178,20 +173,5 @@ const MembershipPage = () => {
     </div>
   );
 };
-
-const faqItems = [
-  {
-    question: "Who can join NAURADSA?",
-    answer: "NAURADSA membership is open to all radiography students at Nnamdi Azikiwe University. We also offer professional membership for graduates working in the field."
-  },
-  {
-    question: "How long does membership last?",
-    answer: "Student membership is valid for as long as the person remains a student of Radiography Department in Nnamdi Azikiwe University. Upon graduation, the member automatically joins the NAURADSA Alumni."
-  },
-  {
-    question: "How do I become a member?",
-    answer: "Just gained admission through JAMB into Radiography Department of Nnamdi Azikiwe University. After which, obtain your NAURADSA ID CARD and pay the little but necessary dues required from time to time."
-  }
-];
 
 export default MembershipPage;
