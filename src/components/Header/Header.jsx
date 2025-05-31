@@ -2,7 +2,8 @@ import React, { useState, useEffect } from 'react';
 import { Link, NavLink } from 'react-router-dom';
 import './Header.css';
 import Button from '../Button/Button';
-import Logo from "../../assets/mainRadlogo.png";
+import logo from '../../assets/mainRadlogo.png';
+
 
 const Header = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -49,7 +50,7 @@ const Header = () => {
         <div className="header__logo">
           <Link to="/" className="header__logo-link">
             <div className="header__logo-text">
-              <img src={ Logo } alt="Rad Logo" className="header__logo-image" />
+              <img src={ logo } alt="Rad Logo" className="header__logo-image" />
                <span className="header__logo-subtext">
               Nnamdi Azikiwe University Radiography Students Association
             </span>
